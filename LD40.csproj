@@ -80,9 +80,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CenveyerBelt.cs" />
     <Compile Include="Assets\Scripts\Data\Droppable.cs" />
+    <Compile Include="Assets\Scripts\Data\Droppable\NuclearWaste.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\ItemPicker.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
